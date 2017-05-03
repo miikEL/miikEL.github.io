@@ -1,0 +1,304 @@
+body {
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Arial";
+    font-weight: 500;
+}
+
+
+/* -----------------MAIN PICTURE-------------------*/
+#mainPicture {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    display: block;
+}
+
+#mainPictureColor {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    z-index: 0;
+
+}
+
+#mainText {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    left: 13%;
+    top: 30%;
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    
+}
+
+#mainTextV2 {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    left: 18%;
+    top: 50%;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    
+}
+
+#webdev {
+    font-size: 30px;  
+}
+
+/* -----------------PROFILE PICTURE-------------------*/
+
+
+#profilePicture {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 0%;
+    position: absolute;
+    z-index: 0;
+}
+
+#profilePictureColor {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 0%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#profileText {
+    position: absolute;
+    z-index: 5;
+    right: 25%;
+    top: 8%;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+#profileTextV2 {
+    position: absolute;
+    z-index: 5;
+    right: 22.2%;
+    top: 13%;
+    color: white;
+    font-size: 20px;
+    font-family: "calibri";
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+#profileIcon {
+    position: absolute;
+    z-index: 5;
+    right: 34.5%;
+    top: 9%;
+    width: 80px;
+    height: 80px;
+    
+}
+
+/* ------------------- ProfilePage ------------------------ */
+
+#bigProfilePic {
+    width: 42%;
+    height: 100%;
+    position: fixed;
+    
+}
+
+#personalPic {
+    position: absolute;
+    left: 48%;
+    top: 18%;
+    width: 320px;
+    border: 1px solid #00B6F9;
+    text-align: center;
+}
+
+#profileTitle {
+    left: 60%;
+    top: 10%;
+    color: black;
+    position: absolute;
+    
+}
+
+
+/* -----------------RESUME PICTURE-------------------*/
+#resumePicture {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 25%;
+    position: absolute;
+    z-index: 0;
+}
+
+#resumePictureColor {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 25%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#resumeText {
+    position: absolute;
+    z-index: 5;
+    right: 25%;
+    top: 31%;
+    color: white;
+    font-size: 35px;
+    font-family: "calibri";
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+#resumeTextV2 {
+    position: absolute;
+    z-index: 5;
+    right: 13.6%;
+    top: 36.5%;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-family: "calibri";
+}
+
+#resumeIcon {
+    position: absolute;
+    z-index: 5;
+    right: 34%;
+    top: 32%;
+    width: 110px;
+    height: 110px;
+    
+}
+
+/* -----------------PORTFOLIO PICTURE-------------------*/
+#portfolioPicture {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+#portfolioPictureColor {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#portfolioText {
+    position: absolute;
+    z-index: 5;
+    color: white;
+    top: 58%;
+    right: 22%;
+    font-size: 31px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+#portfolioTextV2 {
+    position: absolute;
+    z-index: 5;
+    color: white;
+    top: 63%;
+    right: 21.5%;
+    font-size: 20px;
+    font-family: "calibri";
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+#portfolioIcon {
+    position: absolute;
+    z-index: 5;
+    width: 85px;
+    height: 85px;
+    top: 58.5%;
+    right: 34.5%;
+    
+}
+
+/* -----------------CONTACT PICTURE-------------------*/
+#contactPicture {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 75%;
+    position: absolute;
+    z-index: 0;
+}
+
+#contactPictureColor {
+    width: 50%;
+    height: 25%;
+    left: 50%;
+    top: 75%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    
+}
+
+#contactText {
+    position: absolute;
+    z-index: 5;
+    top: 82%;
+    right: 23%;
+    color: white;
+    font-family: "calibri";
+    font-size: 40px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    
+}
+
+#contactTextV2 {
+    position: absolute;
+    z-index: 5;
+    top: 89%;
+    right: 22.5%;
+    color: white;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-size: 20px;
+    
+}
+
+#contactIcon {
+    position: absolute;
+    z-index: 5;
+    top: 85%;
+    right: 34.5%;
+    width: 90px;
+    height: 90px;
+    
+}
+
+
+
