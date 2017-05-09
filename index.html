@@ -4,75 +4,110 @@
         <title>Mikaels Resume</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="resumeCSS.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     </head>
         
     <body>
         
-        <div id="mainPictures">
-            <img src="testPictures/mainPictureColor.jpg" id="mainPicture">
-            <img src="testPictures/mainPicture.jpg" id="mainPictureColor">
+        <div class="container-fluid">
+        
+            <div class="row">
+                
+                <div class="col-lg-6" col-sm-offset-0>
+                    
+                    <div class="">
+                        <div id="mainPictureColumn">
 
-                    <h1 id="mainText">HELLO <br> I'M <span style="color:#00B6F9">MIKAEL</span> DIEP</h1>
-                    <h2 id="mainTextV2"><u><span id="webdev">WEB DEVELOPER</span></u></h2>
-            
-        </div>
+                            <img src="testPictures/mainPictureColor.jpg" id="mainPicture">
+                            <h1 id="mainText">HELLO <br> I'M <span style="color:#00B6F9">MIKAEL</span> DIEP</h1>
+                            <h2 id="mainTextV2"><u><span id="webdev">WEB DEVELOPER</span></u></h2>
 
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                  
+                    <div id="profilePictures">
+                        
+                        <img src="testPictures/profilePicture.jpg" id="profilePicture">
+                        <img src="testPictures/profilePictureColor.jpg" id="profilePictureColor">
+                        <p id="profileText" class="pictureText">PR<span style="color:#00B6F9">O</span>FILE</p>
+                        <p id="profileTextV2" class="pictureTextV2">Some words about me</p>
+                        <img id="profileIcon" src="testPictures/icons/profile.png">
+                    
+                    </div>
+                        
+                </div>
+                
+                <div class="col-lg-6">
+                    
+                    <div id="resumePictures">
+                    
+                        <img src="testPictures/resumePicture.jpg" id="resumePicture">
+                        <img src="testPictures/resumePictureColor.jpg"  id="resumePictureColor">
+                        <p id="resumeText" class="pictureText" >RE<span style="color:#00B6F9">S</span>UME</p>
+                        <img src="testPictures/icons/education.png" id="resumeIcon">
+                        <p id="resumeTextV2" class="pictureTextV2">Something about my experience and skills</p>
+                    
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                
+                    <div id="portfolioPictures">
+                    
+                        <img src="testPictures/portfolioPicture.jpg" id="portfolioPicture">
+                        <img src="testPictures/portfolioPictureColor.jpg" id="portfolioPictureColor">
+                        <p id="portfolioText" class="pictureText" >PORT<span style="color:#00B6F9">F</span>OLIO</p>
+                        <p id="portfolioTextV2" class="pictureTextV2">Have a look at my work</p>
+                        <img src="testPictures/icons/portfolio.png" id="portfolioIcon">
+                    
+                    </div>
+                        
+
+                
+                </div>
+                
+                <div class="col-lg-6">
+                    
+                    <div id="contactPictures">
+                    
+                        <img src="testPictures/contactPicture.jpg" id="contactPicture">
+                        <img src="testPictures/contactPictureColor.jpg" id="contactPictureColor">
+                        <p id="contactText" class="pictureText" >CO<span style="color:#00B6F9">N</span>TACT</p>
+                        <p id="contactTextV2" class="pictureTextV2">Say hello or find me</p>
+                        <img src="testPictures/icons/contact.png" id="contactIcon">    
+
+                    </div>
+                    
+                    
+                </div>
   
-                <div id="profilePictures">
-                    <img src="testPictures/profilePicture.jpg" id="profilePicture">
-                    <img src="testPictures/profilePictureColor.jpg" id="profilePictureColor">
-                    <h1 id="profileText">PR<span style="color:#00B6F9">O</span>FILE</h1>
-                    <p id="profileTextV2">Some words about me</p>
-                    <img id="profileIcon" src="testPictures/icons/profile.png">
-
-                </div>
-
-                <div id="resumePictures">
-                    <img src="testPictures/resumePicture.jpg" id="resumePicture">
-                    <img src="testPictures/resumePictureColor.jpg"  id="resumePictureColor">
-                    <h1 id="resumeText">RE<span style="color:#00B6F9">S</span>UME</h1>
-                    <img src="testPictures/icons/education.png" id="resumeIcon">
-                    <p id="resumeTextV2">Something about my experience and skills</p>
-
-                </div>
-
-                <div id="portfolioPictures">
-                    <img src="testPictures/portfolioPicture.jpg" id="portfolioPicture">
-                    <img src="testPictures/portfolioPictureColor.jpg" id="portfolioPictureColor">
-                    <h1 id="portfolioText">PORT<span style="color:#00B6F9">F</span>OLIO</h1>
-                    <p id="portfolioTextV2">Have a look at my work</p>
-                    <img src="testPictures/icons/portfolio.png" id="portfolioIcon">
-
-                </div>
-
-
-                <div id="contactPictures">
-                    <img src="testPictures/contactPicture.jpg" id="contactPicture">
-                    <img src="testPictures/contactPictureColor.jpg" id="contactPictureColor">
-                    <h1 id="contactText">CO<span style="color:#00B6F9">N</span>TACT</h1>
-                    <p id="contactTextV2">Say hello or find me</p>
-                    <img src="testPictures/icons/contact.png" id="contactIcon">
-
-                </div>
+                
+        
+        
+        </div>
+    </div>
+        
         
         
 
-        <!-- PROFILE -->
-        <div>Icons made by <a href="http://www.flaticon.com/authors/chanut-is-industries" title="Chanut is Industries">Chanut is Industries</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        
-        <!-- RESUME -->
-        <div>Icons made by <a href="http://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        
-        <!-- PORTFOLIO -->
-        <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        
-        <!-- CONTACT -->
-        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="app.js"></script>
+        
     
     </body>
 
