@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+.inline-block {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    
+}
+
 
 /* -----------------MAIN PICTURE-------------------*/
 #mainPicture {
@@ -260,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 #resumeIcon {
     position: absolute;
     z-index: 5;
-    bottom: 27%;
+    bottom: 30%;
     left: 25%;
     width: 110px;
     height: 110px;
@@ -367,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 #contactIcon {
     position: absolute;
     z-index: 5;
-    bottom: 35%;
+    bottom: 30%;
     left: 25%;
     width: 90px;
     height: 90px;
@@ -450,6 +457,12 @@ h1, h2, h3, h4, h5, h6 {
         
     }
     
+    #webdev {
+        
+        font-size: 40px;
+        
+    }
+    
 }
 
 @media screen and (max-width: 670px) {
@@ -457,6 +470,27 @@ h1, h2, h3, h4, h5, h6 {
     #mainText {
         
         font-size: 40px;
+        
+    }
+    
+    #webdev {
+        
+        font-size: 30px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 4000px) {
+    
+    #mainText {
+        
+        font-size: 30px;
+        
+    }
+    #webdev {
+        
+        font-size: 20px;
         
     }
     
